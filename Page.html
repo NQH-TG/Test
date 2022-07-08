@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <style>
+        body {background-color: powderblue}
+        h1 {
+            color: red;
+            text-align:center;
+        }
+        table, tr, th {
+            color: yellow;
+            border: 1px solid white;
+            border-collapse: collapse;
+            background-color: green;
+            width: 40%;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        a {
+            color: red;
+            width:100%;
+            margin-left:50%;
+            margin-right:50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Students Information</h1>
+    <table>
+        <tr>
+            <th>Student Name</th>
+            <th>ID</th>
+            <th>Score</th>
+        </tr>
+    </table>
+    <a href="/Users/louisnguyen/Desktop/Work/Test/Test/Base.lproj/Output.txt">Print</a><br>
+    <script>
+            var w = window.open('/Users/louisnguyen/Desktop/Work/Test/Test/Base.lproj/Output.txt');
+            w.print();
+        }
+    </script>
+</body>
+</html>
